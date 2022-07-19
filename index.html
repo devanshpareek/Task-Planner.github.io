@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- NavBar -->
+    <div class="toolbox-cont">
+        <div class="toolbox-color-cont">
+            <div class="lightpink color"></div>
+            <div class="lightgreen color"></div>
+            <div class="lightblue color"></div>
+            <div class="black color"></div>
+        </div>
+        <div class="action-btn-cont">
+            <div class="add-btn">
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="remove-btn">
+            <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!-- Todo Box Space-->
+    <div class="main-cont">
+<!-- inside this container all my tickets will be attached  -->
+    </div>
+
+    <!-- Modal Container -->
+    <div class="modal-cont">
+        <textarea class="textarea-cont"placeholder="Enter Your Task"></textarea>
+        <div class="priority-color-cont">
+            <div class="lightpink priority-color "></div>
+            <div class="lightgreen priority-color "></div>
+            <div class="lightblue priority-color "></div>
+            <div class="black priority-color "></div>
+        </div>
+    </div>
+
+    <!-- ticket container --> 
+    <!-- <div class="ticket-cont">
+        <div class="ticket-color"></div>
+        <div class="ticket-id"></div>
+        <div class="task-area"></div>
+    </div> -->
+    <script src="https://cdn.jsdelivr.net/npm/short-unique-id@latest/dist/short-unique-id.min.js"></script>
+    <script src="./script.js"></script>
+    <!-- <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyBq-T2yAGiYPtL6UPhaf6nGBTFYOagG8cc",
+          authDomain: "to-do-68f0a.firebaseapp.com",
+          projectId: "to-do-68f0a",
+          storageBucket: "to-do-68f0a.appspot.com",
+          messagingSenderId: "18760909245",
+          appId: "1:18760909245:web:14114d34a2b7b8065a12d4",
+          measurementId: "G-SSG9N038JS"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script> -->
+</body>
+</html>
+
+<!-- we will add icons in place of this 
+                    we can add icons by using fontawesom.com
+                    simply select the icon paste the code and
+                    search cdn link for fontawesom and copy and paste the cdn(content delievery network)
+                    link after title -->
